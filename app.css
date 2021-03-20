@@ -1,0 +1,439 @@
+body{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;;
+}
+
+
+.header {
+    width: 100%;
+    border-bottom: 5px solid #cec2b8;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.navbar{
+    margin-top:55px;
+}
+
+a{
+    color: rgb(0, 0, 0) !important; 
+    font-size: 1.1em;
+}
+
+.slideshow{
+    position: relative;
+}
+
+.overlay{
+    color: rgb(255, 255, 255);
+    position:absolute;
+    z-index:12;
+    top:40%;
+    left:0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.4em;
+    font-size: 5vw;
+    font-family: 'Shippori Mincho B1', serif;;
+}
+
+
+.about{
+    background-image: url("images/tp-bg.png");
+min-height: 80%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+
+}
+
+.about span{
+padding: 100px;
+}
+
+.about-text{
+    padding: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    line-height: 100px;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 1.8vh;
+    
+}
+
+
+.bg-1{
+background-image: url("images/bg-oil.JPG");
+height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+position: relative;
+overflow: hidden;
+}
+
+.bg-1 .message{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    line-height: 60px;
+    padding: 20px;
+    width: 50%;
+    height:50%;
+    font-size: 1rem;
+    top: 25%;
+    left: 25%;
+    background-color: rgba(255, 248, 248, 0.55);
+    z-index: 2;
+    backdrop-filter: blur(5px) saturate(115%);
+    -webkit-backdrop-filter: blur(5px) saturate(115%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+    font-family: 'Shippori Mincho B1', serif;;
+    overflow: scroll;
+}
+
+
+
+.menu{
+    /* font-family: 'Shippori Mincho B1', serif;; */
+    position: relative;
+}
+
+.menu1{
+    padding-top: 40px;
+background-color: white;
+}
+
+.menu1-img{
+    max-width:80%;
+    max-height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50%;
+
+    }
+
+.menu1 img:hover{
+    opacity: 0.75;
+    transition: 0.1s ease;
+    
+}
+    
+.menu-header{
+margin-left: 40px;
+margin-right: 40px;
+
+
+}
+
+.menu-header h2{
+    margin-bottom: 75px;
+    margin-top: 100px;
+}
+
+.menu-title{
+    background: linear-gradient(#b0a094ee, #b0a094ee), url("images/texture.jpg");
+    color: white;
+}
+
+.menu-img {
+    max-height: 240px;
+    max-width: 240px;
+    padding-top: 40px;
+}
+
+.menusub{
+    margin-bottom: 20px;
+}
+
+.menusub-option{
+    height: 5vh;
+    margin-bottom: 20px;
+}
+
+.menu-pricing{
+    background: linear-gradient(#b0a094ee, #b0a094ee), url("images/texture.jpg");
+    position: relative;
+    font-family: 'Shippori Mincho B1', serif;;
+    padding-right: 30px;
+    padding-left: 30px;
+    letter-spacing: 0.4em;
+    text-align: center;
+    align-items: stretch;
+    background-color: #aba29b;
+    color: white;
+}
+
+
+.menu-overlay{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    top:94.3%;
+    z-index:1000;
+  }
+
+
+
+  i{
+    margin-bottom: 40px; 
+  }
+
+.menu-pricing ul{
+      list-style-type: none;
+      text-align: left;
+      font-size: 1.2em;
+  }
+
+  .menu-pricing li { padding: 10px 0;}
+
+  .menu-pricing li span { display: block; height: 25px;}
+  
+  .menu-pricing li span:first-child{
+    float: left;
+    padding: 0 10px 0 0;
+  }
+  
+  .menu-pricing li span:first-child + span {
+    float: right;
+    padding: 0 0 0 10px;
+  }
+  
+  .menu-pricing li span:first-child + span + span{
+    overflow: hidden;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+  }
+  
+  .menu-pricing h4{
+      text-align: left;
+      
+  }
+
+
+  .therapist{
+      position: relative;
+  }
+
+  .therapist-title{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    align-items: center;
+    line-height: 100px;
+    letter-spacing: 2rem;
+    writing-mode: vertical-lr;
+    font-size: 1.8vh;
+    white-space: nowrap;
+
+  }
+
+  .profile{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    padding:2em;
+    justify-content: flex-end;
+    box-shadow: 0em 0 3em -40px rgb(0, 0, 0);
+    color: rgb(55, 55, 55);
+    background-color: rgba(255, 255, 255, 0.646);
+    font-family: 'Shippori Mincho B1', serif;;
+    border-radius: -10px;
+    border: solid 1px rgba(197, 176, 108, 0.010);
+}
+
+.profile h1 h2 p{
+float: left;
+padding:20px;
+}
+
+
+.profile img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    float:right;
+}
+
+.contact{
+    padding: 40px;
+    font-family: 'Shippori Mincho B1', serif;;
+    color: rgb(55, 55, 55);
+    font-size: 3.2vw;
+    white-space: nowrap;
+}
+
+.contact-info{
+    position: relative;
+}
+.contact-info img{
+position: absolute;
+width: 50%;
+height: auto;
+top: -9%;
+right: 10%;
+z-index: 1000;
+        }
+
+
+
+
+
+
+
+  @media screen and (max-width: 767px){
+    .overlay{
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .overlay{
+        top: 30%;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+    .about-text {
+writing-mode: unset;
+line-height: 150px;
+text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-display {
+        display: none;
+    }
+}
+
+  @media (max-width: 767px) {
+    .menu-title {
+        border-left: 0px;
+    }
+}
+
+    @media (max-width: 767px) {
+        .menu-pricing {
+            border-left: 0px;
+        }
+    }
+
+  @media screen and (max-width: 767px){
+    .menu1-img{
+     width: 30%;
+     height:auto;
+    }
+  }
+
+  @media screen and (min-width: 767px){
+    .menu-img{ display:inline-block;}
+    .menu-text{ display:none;}
+    .menu-title{ padding-bottom:40px;}
+    .therapist-title{ display:inline-block;}
+  }
+
+  @media screen and (max-width: 767px){
+    .menu-img{ display:none;}
+    .menu-text{ display:inline-block;}
+    .therapist-title{ display:none !important;}
+
+    @media screen and (min-width: 996px){
+        .menu-pricing{
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+    }
+
+    @media screen and (max-width: 375px){
+        .menu-pricing li span:first-child + span + span{
+            overflow: hidden;
+            border-bottom: 0px;
+        }
+    }
+
+    @media screen and (max-width: 375px){
+        .menu-overlay{
+            top:84.9%;
+            display: inline;
+        }
+    }
+
+    @media screen and (min-width: 376px ){
+        .menu-overlay{
+            display: none;
+        }
+
+    }
+    
+
+    @media screen and (max-width: 375px){
+        .bg-1 .message{
+    width: 50%;
+    height:80%;
+    top: 10%;
+    left: 25%;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-rl;
+    text-align: unset;
+    line-height: 20px;
+    padding: 0px
+        }
+    }
+
+    @media screen and (max-width: 375px){
+        .message p {
+    margin: 18px;
+        }
+    }
+
+
+    @media screen and (max-width: 414px){
+        .profile{
+    margin-bottom: 5vh;
+        }
+    }
+    
+    @media screen and (max-width: 767px){
+        .profile{
+            text-align: center;
+            margin-top: 9vh;
+        }
+        .profile img {
+            width: 50%;
+            height: auto;
+            border-radius: 50%;
+            float:none;
+            display: inline-flex;
+            margin-bottom: 20px;
+    
+        }
+        .profile p {
+            line-height: 30px;
+            
+        }
+    }
