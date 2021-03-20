@@ -78,14 +78,15 @@ padding: 100px;
 
 .bg-1{
 background-image: url("images/bg-oil.JPG");
-    background-color: #F4F4F2;
 height: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 background-size: cover;
+-webkit-background-size: cover;
 position: relative;
 overflow: hidden;
+  
 }
 
 .bg-1 .message{
