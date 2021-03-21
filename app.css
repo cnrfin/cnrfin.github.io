@@ -85,7 +85,6 @@ background-size: cover;
 position: relative;
 overflow: hidden;
 }
-}
 
 .bg-1 .message{
     position: absolute;
@@ -107,7 +106,6 @@ overflow: hidden;
     font-family: 'Shippori Mincho B1', serif;;
     overflow: scroll;
 }
-
 
 
 .menu{
