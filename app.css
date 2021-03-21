@@ -52,6 +52,9 @@ a{
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
 
 }
 
@@ -77,10 +80,12 @@ padding: 100px;
 .bg-1{
 background-image: url("images/bg-oil.gif");
 height: 100%;
-background-repeat: no-repeat;
 background-position: center;
+background-repeat: no-repeat;
 background-size: cover;
 -webkit-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
 position: relative;
 overflow: hidden;
   
