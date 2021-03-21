@@ -50,11 +50,9 @@ a{
 .about{
     background-image: url('images/tp-bg.gif');
 background-repeat: no-repeat;
+background-attachment: fixed;
 background-position: center;
 background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
--webkit-background-size: cover;
 
 }
 
@@ -80,15 +78,13 @@ padding: 100px;
 .bg-1{
 background-image: url("images/bg-oil.gif");
 height: 100%;
-background-position: center;
 background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
 background-size: cover;
--webkit-background-size: cover;
--o-background-size: cover;
--moz-background-size: cover;
 position: relative;
 overflow: hidden;
-  
+}
 }
 
 .bg-1 .message{
