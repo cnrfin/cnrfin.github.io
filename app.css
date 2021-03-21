@@ -48,7 +48,7 @@ a{
 
 
 .about{
-    background-image: url('images/tp-bg.png');
+    background-image: url('images/tp-bg.gif');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
@@ -76,7 +76,7 @@ padding: 100px;
 
 
 .bg-1{
-background-image: url("images/bg-oil.JPG");
+background-image: url("images/bg-oil.gif");
 height: 100%;
 background-repeat: no-repeat;
 background-attachment: fixed;
