@@ -49,13 +49,10 @@ a{
 
 .about{
     background-image: url('images/tp-bg.png');
-    min-height: 80%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
 
 }
 
