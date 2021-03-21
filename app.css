@@ -50,7 +50,6 @@ a{
 .about{
     background-image: url('images/tp-bg.gif');
 background-repeat: no-repeat;
-background-attachment: fixed;
 background-position: center;
 background-size: cover;
 
@@ -79,7 +78,6 @@ padding: 100px;
 background-image: url("images/bg-oil.gif");
 height: 100%;
 background-repeat: no-repeat;
-background-attachment: fixed;
 background-position: center;
 background-size: cover;
 -webkit-background-size: cover;
