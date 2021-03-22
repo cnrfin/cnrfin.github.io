@@ -299,8 +299,29 @@ z-index: 1000;
 
 
 
+@supports ( -webkit-touch-callout : none) {
+.about {
+background-attachment:scroll
+}
+}
 
+@supports not ( -webkit-touch-callout : none) {
+.about {
+background-attachment: fixed;
+}
+}
 
+@supports ( -webkit-touch-callout : none) {
+.bg-1 {
+background-attachment:scroll
+}
+}
+
+@supports not ( -webkit-touch-callout : none) {
+.bg-1 {
+background-attachment: fixed;
+}
+}
 
 
   @media screen and (max-width: 767px){
