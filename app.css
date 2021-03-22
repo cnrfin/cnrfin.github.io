@@ -50,7 +50,7 @@ a{
 .about{
     background-image: url('images/tp-bg.gif');
 background-repeat: no-repeat;
-background-attachment: fixed;
+background-attachment: scroll;
 background-position: center;
 background-size: cover;
 
@@ -79,7 +79,7 @@ padding: 100px;
 background-image: url("images/marble.jpeg");
 height: 100%;
 background-repeat: no-repeat;
-background-attachment: fixed;
+background-attachment: scroll;
 background-position: center;
 background-size: cover;
 position: relative;
