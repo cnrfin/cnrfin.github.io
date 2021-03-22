@@ -48,7 +48,7 @@ a{
 
 
 .about{
-    background-image: url('images/tp-bg.png');
+    background-image: url('images/tp-bg.gif');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
@@ -164,7 +164,7 @@ margin-right: 40px;
 }
 
 .menusub-option{
-    height: 6vh;
+    height: 10vh;
     margin-bottom: 20px;
 }
 
@@ -436,3 +436,15 @@ text-align: center;
             
         }
     }
+
+    /* JS */
+    .fadein {
+        opacity : 0.1;
+        transform : translate(0, 50px);
+        transition : all 500ms;
+        }
+    
+    .fadein.scrollin {
+        opacity : 1;
+        transform : translate(0, 0);
+        }
