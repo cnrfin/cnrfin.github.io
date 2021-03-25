@@ -91,11 +91,11 @@ overflow: hidden;
     text-align: center;
     justify-content: center;
     line-height: 60px;
-    padding: 20px;
+    padding: 3px;
     width: 50%;
-    height:50%;
-    font-size: 1rem;
-    top: 25%;
+    height:10%;
+    font-size: 3vw;
+    top: 40%;
     left: 25%;
     background-color: rgba(255, 248, 248, 0.55);
     z-index: 2;
@@ -104,7 +104,6 @@ overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
     font-family: 'Shippori Mincho B1', serif;;
-    overflow: scroll;
 }
 
 
@@ -411,21 +410,23 @@ text-align: center;
     }
     
 
-    @media screen and (max-width: 375px){
+   @media screen and (max-width: 414px){
         .bg-1 .message{
-    width: 50%;
+    width: 20%;
     height:80%;
     top: 10%;
-    left: 25%;
-    letter-spacing: 0.5rem;
+    left: 40%;
+    letter-spacing: 0.75rem;
     writing-mode: vertical-rl;
     text-align: unset;
     line-height: 20px;
-    padding: 0px
+    padding: 10px;
+    font-size: 6vw;
+    text-align: center;
         }
     }
 
-    @media screen and (max-width: 375px){
+    @media screen and (max-width: 414px){
         .message p {
     margin: 18px;
         }
